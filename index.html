@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Taco Tango | The only taco worth leaving your house for</title>
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+<nav class="site-nav">
+  <a href="index.html" class="brand"><img src="assets/img/logo.png" alt="Taco Tango logo"></a>
+  <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">&#9776;</button>
+  <ul class="nav-links">
+    <li><a href="index.html" class="active"><span class="num">00</span> Home</a></li>
+    <li><a href="about.html"><span class="num">01</span> About</a></li>
+    <li><a href="menu.html"><span class="num">02</span> Menu</a></li>
+    <li><a href="events.html"><span class="num">03</span> Events</a></li>
+  </ul>
+</nav>
+
+<header class="hero">
+  <video autoplay muted loop playsinline poster="assets/img/hero-poster.jpg" id="heroVideo">
+    <source src="assets/video/TacoTangoHero.mp4" type="video/mp4">
+  </video>
+  <div class="hero-fallback"></div>
+  <button class="sound-toggle" id="soundToggle" type="button" aria-pressed="false" aria-label="Turn hero video sound on">&#128264;</button>
+  <div class="hero-content">
+    <img class="logo-mark" src="assets/img/logo.png" alt="Taco Tango, by Maia and Savannah, est. 2026">
+    <p class="hero-tag">THE ONLY TACO WORTH LEAVING YOUR HOUSE FOR</p>
+    <a href="menu.html" class="btn solid">View the menu</a>
+  </div>
+</header>
+
+<div class="scallop"></div>
+
+<section>
+  <div class="wrap section-head reveal">
+    <p class="eyebrow-script">Let's taco 'bout it</p>
+    <h2>Fiesta like there's no ma&ntilde;ana</h2>
+    <p>Taco Tango is a Mexican-Argentinian fusion spot dreamed up by two owners who love good food, good friends, and a little tango on the side. Grab a mocktail, meet the mariachi, and stay for dessert.</p>
+  </div>
+
+  <div class="wrap tiles reveal">
+    <a class="tile" href="about.html">
+      <h3>About us</h3>
+      <p>Meet Maia and Savannah, the owners behind Taco Tango.</p>
+    </a>
+    <a class="tile" href="menu.html">
+      <h3>The menu</h3>
+      <p>Appetizers, entrees, desserts, mocktails, and a full kids menu.</p>
+    </a>
+    <a class="tile" href="events.html">
+      <h3>Events</h3>
+      <p>Mariachi Mondays, Taco Trivia, Tango Thursdays, and Fiesta Fridays.</p>
+    </a>
+  </div>
+</section>
+
+<div class="ticker-wrap" aria-label="Customer reviews">
+  <div class="ticker-track" id="ticker-track"></div>
+</div>
+
+<footer>
+  <span class="brand">TACO <span style="color:var(--red)">TANGO</span></span>
+  &copy; 2026 Taco Tango &mdash; a school project by Maia &amp; Savannah
+</footer>
+
+<script src="assets/js/reviews-data.js"></script>
+<script src="assets/js/ticker.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>

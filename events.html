@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Events | Taco Tango</title>
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+<nav class="site-nav">
+  <a href="index.html" class="brand"><img src="assets/img/logo.png" alt="Taco Tango logo"></a>
+  <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">&#9776;</button>
+  <ul class="nav-links">
+    <li><a href="index.html"><span class="num">00</span> Home</a></li>
+    <li><a href="about.html"><span class="num">01</span> About</a></li>
+    <li><a href="menu.html"><span class="num">02</span> Menu</a></li>
+    <li><a href="events.html" class="active"><span class="num">03</span> Events</a></li>
+  </ul>
+</nav>
+
+<div class="page-banner">
+  <img src="assets/img/banner-events.jpg" alt="A candlelit rooftop terrace at dusk with a guitar, string lights, papel picado, tango shoes and a rose, set for an evening of music and dancing">
+</div>
+<div class="scallop"></div>
+
+<section>
+  <div class="wrap section-head reveal">
+    <p class="eyebrow-script">Something fun, every week</p>
+    <h1 class="display" style="font-size:42px;">Weekly events</h1>
+    <p>Stop by any night of the week and there's always a reason to fiesta.</p>
+  </div>
+
+  <div class="wrap" style="max-width:700px;">
+
+    <div class="event-card reveal">
+      <div class="event-time"><div class="day">Monday</div><div class="hrs">6:30&ndash;9:00 PM</div></div>
+      <div>
+        <h3>Mariachi Mondays</h3>
+        <p>Kick off the week with live mariachi music so good, you'll want to taco 'bout it all night long!</p>
+      </div>
+    </div>
+
+    <div class="event-card reveal">
+      <div class="event-time"><div class="day">Tuesday</div><div class="hrs">8:00 PM</div></div>
+      <div>
+        <h3>Taco Trivia Tuesday</h3>
+        <p>Think you know your queso from your quesadilla? Test your taco IQ and see if you've got what it nachos to win!</p>
+      </div>
+    </div>
+
+    <div class="event-card reveal">
+      <div class="event-time"><div class="day">Thursday</div><div class="hrs">8:00 PM</div></div>
+      <div>
+        <h3>Tropical Tango Thursday</h3>
+        <p>Grab a mocktail and dance the night away, it's a fiesta for your feet!</p>
+      </div>
+    </div>
+
+    <div class="event-card reveal">
+      <div class="event-time"><div class="day">Friday</div><div class="hrs">3:00&ndash;6:00 PM</div></div>
+      <div>
+        <h3>Fiesta Friday</h3>
+        <p>Start the weekend right with games, treats, and good vibes, this fiesta doesn't wait for Saturday!</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<div class="ticker-wrap" aria-label="Customer reviews">
+  <div class="ticker-track" id="ticker-track"></div>
+</div>
+
+<footer>
+  <span class="brand">TACO <span style="color:var(--red)">TANGO</span></span>
+  &copy; 2026 Taco Tango &mdash; a school project by Maia &amp; Savannah
+</footer>
+
+<script src="assets/js/reviews-data.js"></script>
+<script src="assets/js/ticker.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
