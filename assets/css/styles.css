@@ -142,6 +142,11 @@ img,video{max-width:100%;display:block;}
   background:linear-gradient(180deg,rgba(13,10,8,0) 55%,rgba(13,10,8,.9));
 }
 
+.qr-code{
+  margin:24px auto 0;width:220px;height:220px;
+  border-radius:20px;box-shadow:0 0 0 1px var(--border);
+}
+
 /* ---------- Sections ---------- */
 section{padding:80px 0;}
 .section-head{max-width:600px;margin:0 auto 48px;text-align:center;}
@@ -207,6 +212,8 @@ section{padding:80px 0;}
 .ticker-item .stars{color:var(--gold);letter-spacing:1px;}
 .ticker-item .who{color:var(--gold-deep);font-weight:700;}
 @keyframes ticker{from{transform:translateX(0);}to{transform:translateX(-50%);}}
+@media(max-width:720px){.ticker-track{animation-duration:100s;}}
+@media(max-width:420px){.ticker-track{animation-duration:130s;}}
 @media(prefers-reduced-motion:reduce){.ticker-track{animation:none;overflow-x:auto;}}
 
 /* ---------- Footer ---------- */
