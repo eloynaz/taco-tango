@@ -1,7 +1,8 @@
 # Taco Tango website
 
 A 4-page static site (Home, About, Menu, Events) built with plain HTML/CSS/JS —
-no build step, no dependencies. Ready to host on GitHub Pages.
+no build step, no dependencies. Live on GitHub Pages at
+https://eloynaz.github.io/taco-tango/
 
 ## Folder contents
 ```
@@ -18,16 +19,19 @@ assets/img/owners-illustration.png   Illustrated photo of Maia & Savannah
 assets/video/           Empty — drop the hero video here (see below)
 ```
 
-## Still to add before it's fully finished
+## Status
 
 1. ~~Hero video~~ — done. `assets/video/TacoTangoHero.mp4` is wired up as the
-   home page hero background.
-2. Menu and Events pages now each have a banner image
+   home page hero background, with a sound-on toggle since browsers block
+   autoplay with audio.
+2. ~~Banner images~~ — done. Menu and Events pages each have a banner image
    (`assets/img/banner-menu.jpg`, `assets/img/banner-events.jpg`) above
    their headings.
-3. **QR code** — once the site is live on GitHub Pages, send me the URL and
-   I'll generate a real, scannable QR code styled in a taco frame to drop into
-   `about.html` in place of the placeholder box.
+3. ~~QR code~~ — done. `assets/img/qr-code.png` is a real, scannable QR code
+   in a taco-branded gold/cream frame, linking to
+   https://eloynaz.github.io/taco-tango/, embedded in `about.html`. A
+   larger standalone flyer version (with the full logo and a caption) was
+   also generated for the class presentation.
 
 ## How to publish on GitHub Pages
 
